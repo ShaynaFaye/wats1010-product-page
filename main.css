@@ -1,8 +1,172 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+* {
+	margin: 0;
+	padding: 0;
+	}
+
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+   	color: #335C67;
+	font-family: georgia, sans-serif;
+	font-size: 20px;
+	/*background-image: url(../design/forest.jpg);
+	background-repeat: no-repeat;  
+	background-position: center center;
+	background-size: cover;*/
+	background-color: #3F1A21;
+}
+
+header {
+	background-image: url(../design/wood-banner.jpg);
+	background-repeat: no-repeat;  
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 50px;
+	height: 400px; 
+}
+
+#header-content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 120px;
+	padding-top: 220px;
+	text-align: left;
+}
+
+h2 {
+	font-size: 50px;
+	padding: 20px 0;
+}
+
+p {
+	padding: 20px;
+}
+
+nav ul {
+	clear: both;
+	padding-top: 0;
+	padding-bottom: 15px;
+	}
+
+nav ul li {
+	display: inline;
+	padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+	}
+
+ul li {
+    list-style-type: none;
+}
+
+.buttons {
+	text-align: left;
+	background-color: #E2D686;
+	border-radius: 25px;
+    border: 2px solid; 
+	border-color: #946846;
+	padding: 8px 20px;
+    margin-top: 10px;
+}
+
+a:link {
+    text-decoration: none;
+	color: #3F2A9E;
+}
+a:active {
+	font-weight: bold;
+}
+a:visited {
+    color: #2E1F71;
+}
+a:hover {
+	font-size: 120%
+}
+
+/* .right-buttons {
+	text-align: right;
+	background-color: #FFFC7C;
+	border-radius: 25px;
+    border: 2px solid; 
+	ngborder-color: #3F2A9E;
+	padding-left: 20px;
+    paddi-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-top: 5px;
+}*/
+
+#sign-up-top-button {
+	margin-left: 370px;
+}
+
+#content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#float-content {
+	width: 1000px;
+	float:left;
+	}
+
+#sidebar {
+	width: 160px;
+	float: left;
+	border: 2px solid black;
+	border-radius: 25px;
+	padding: 10px;
+	text-align: center;
+	background-color: #D2BF55;
+	font-size: 15px;
+	margin: 30px  0;
+}
+
+.float:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#sidebar ul li {
+	display: inline;
+}
+
+#sidebar ul {
+	padding-top: 5px;
+}
+
+#content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/*#intro {
+	background-color: #BAAB68;
+	border: 2px solid;
+}*/
+
+
+
+footer {
+	background-image: url(../design/wood-banner.jpg);
+	background-repeat: no-repeat;  
+	background-position: center center;
+	background-size: cover;
+	height: 200px; 
+	margin-top: 50px;
+}
+
+#footer-content {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#footer p {
+	text-align: right;
 }
