@@ -18,7 +18,7 @@ body {
 }
 
 header {
-	background-image: url(../design/wood-banner.jpg);
+	background-image: url(design/wood-banner.jpg);
 	background-repeat: no-repeat;  
 	background-position: center center;
 	background-size: cover;
@@ -40,6 +40,7 @@ h1 {
 h2 {
 	font-size: 50px;
 	padding: 20px 0;
+	display: inline-block;
 }
 
 p {
@@ -154,7 +155,7 @@ a:hover {
 
 
 footer {
-	background-image: url(../design/wood-banner.jpg);
+	background-image: url(design/wood-banner.jpg);
 	background-repeat: no-repeat;  
 	background-position: center center;
 	background-size: cover;
