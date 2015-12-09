@@ -147,12 +147,78 @@ a:hover {
 	clear: both;
 }
 
+/* --trying to float pictures 
+#flying-bee {
+	float:left;
+	width: 450px; 
+	margin-bottom: 20px;
+	margin-right: 10px;
+	clear: both;
+}
+
+#flying-bee:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#livestock {
+	float:left;
+	width: 450px; 
+	margin-bottom: 20px;
+	margin-right: 10px;
+	clear: both;
+}
+*/
+.features-photos {
+	width: 450px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+#best-api:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#payment:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#catalog:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#shopping:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
 /*#intro {
 	background-color: #BAAB68;
 	border: 2px solid;
 }*/
+.sign-up {
+	font-size: 40px;
+	text-align: center;
+	background-color: #E2D686;
+	border-radius: 25px;
+    border: 2px solid; 
+	border-color: #946846;
+	padding: 15px 40px;
+}
 
-
+.action-button {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
 
 footer {
 	background-image: url(design/wood-banner.jpg);
@@ -168,6 +234,26 @@ footer {
 	margin: 0 auto;
 }
 
-#footer p {
-	text-align: right;
+#contact-info {
+	width: 40%;
+	float: left;
+	padding: 20px;
 }
+
+#contact-info:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#footer-text {
+	width: 40%;
+	float: left;
+}
+
+#footer-text:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
