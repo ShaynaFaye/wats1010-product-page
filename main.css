@@ -1,5 +1,4 @@
 /* Styles for Product Page Customization */
-/* NOTE: Do not edit the Bootstrap CSS files. */
 
 * {
 	margin: 0;
@@ -7,14 +6,10 @@
 	}
 
 body {
-   	color: #335C67;
+   	color: #270722;
 	font-family: georgia, sans-serif;
 	font-size: 20px;
-	/*background-image: url(../design/forest.jpg);
-	background-repeat: no-repeat;  
-	background-position: center center;
-	background-size: cover;*/
-	background-color: #3F1A21;
+	background-color: #4F5D2F;
 }
 
 header {
@@ -35,16 +30,20 @@ h1 {
 	font-size: 120px;
 	padding-top: 220px;
 	text-align: left;
+	color: #270722;
+	text-shadow: 2px 2px #93A3B1;  
 }
 
 h2 {
-	font-size: 50px;
-	padding: 20px 0;
+	font-size: 70px;
+	padding-bottom: 20px;
+	padding-top: 100px;
 	display: inline-block;
+	text-shadow: 1px 1px #93A3B1;
 }
 
 p {
-	padding: 20px;
+	font-size: 25px;
 }
 
 nav ul {
@@ -66,40 +65,25 @@ ul li {
 
 .buttons {
 	text-align: left;
-	background-color: #E2D686;
+	background-color: #93A3B1;
+	color: #124559;
 	border-radius: 25px;
-    border: 2px solid; 
-	border-color: #946846;
+    border: 2px solid black; 
 	padding: 8px 20px;
     margin-top: 10px;
 }
 
 a:link {
     text-decoration: none;
-	color: #3F2A9E;
+	color: #124559;
 }
-a:active {
-	font-weight: bold;
-}
+
 a:visited {
-    color: #2E1F71;
+    color: #01161E;
 }
 a:hover {
 	font-size: 120%
 }
-
-/* .right-buttons {
-	text-align: right;
-	background-color: #FFFC7C;
-	border-radius: 25px;
-    border: 2px solid; 
-	ngborder-color: #3F2A9E;
-	padding-left: 20px;
-    paddi-right: 20px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	margin-top: 5px;
-}*/
 
 #sign-up-top-button {
 	margin-left: 370px;
@@ -122,9 +106,9 @@ a:hover {
 	border-radius: 25px;
 	padding: 10px;
 	text-align: center;
-	background-color: #D2BF55;
-	font-size: 15px;
-	margin: 30px  0;
+	background-color: #93A3B1;
+	color:  #124559;
+	margin: 100px  0;
 }
 
 .float:after {
@@ -141,39 +125,37 @@ a:hover {
 	padding-top: 5px;
 }
 
+#sidebar p {
+	font-size: 15px;
+}
+
 #content:after {
 	content: "";
 	display: table;
 	clear: both;
 }
 
-/* --trying to float pictures 
-#flying-bee {
-	float:left;
-	width: 450px; 
-	margin-bottom: 20px;
-	margin-right: 10px;
-	clear: both;
+.intro-photo {
+	padding-bottom: 100px;
+	padding-top: 100px;
+	text-align: center;
+	font-size: 30px;
 }
 
-#flying-bee:after {
-	content: "";
-	display: table;
-	clear: both;
+#video p {
+	padding-bottom: 10px;
 }
 
-#livestock {
-	float:left;
-	width: 450px; 
-	margin-bottom: 20px;
-	margin-right: 10px;
-	clear: both;
+#list-features p {
+	font-size: 18px;
 }
-*/
+
 .features-photos {
 	width: 450px;
 	margin-bottom: 30px;
 	margin-right: 10px;
+	border: 1px solid; 
+	border-color: black;
 }
 
 #best-api:after {
@@ -200,30 +182,31 @@ a:hover {
 	clear: both;
 }
 
-/*#intro {
-	background-color: #BAAB68;
-	border: 2px solid;
-}*/
+#testimonials p {
+	padding-bottom: 20px;
+}
+
 .sign-up {
 	font-size: 40px;
 	text-align: center;
-	background-color: #E2D686;
+	background-color: #93A3B1;
+	color: #124559;
 	border-radius: 25px;
-    border: 2px solid; 
-	border-color: #946846;
+    border: 2px solid black; 
 	padding: 15px 40px;
 }
 
+.sign-up:hover {
+	font-size: 120%
+}
+
 .action-button {
-	margin-left: auto;
-	margin-right: auto;
 	width: 400px;
+	margin: 50px auto;
 }
 
 footer {
-	background-image: url(design/wood-banner.jpg);
-	background-repeat: no-repeat;  
-	background-position: center center;
+	background-color: #124559;
 	background-size: cover;
 	height: 200px; 
 	margin-top: 50px;
@@ -249,6 +232,11 @@ footer {
 #footer-text {
 	width: 40%;
 	float: left;
+	padding-top: 20px;
+}
+
+#footer-text p {
+	font-size: 20px;
 }
 
 #footer-text:after {
